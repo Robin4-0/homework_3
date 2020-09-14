@@ -1,4 +1,4 @@
-# Homework3 - Navigation
+# Homework 3 - Navigation
 
 Implement a routine that lets Marrtino navigate inside the arena of Figure 1. This arena is composed of an open  space, populated by  movable  obstacles, and some narrow corridors. The  robot has to navigate from *START* to a free docking station (*DOCK1* or *DOCK2*), where the manipulator robot will unload manipulated objects (in Homework 4).
 Only one gate (*GATE1* or *GATE2*) is open per time and the robot is forced to cross that free gate to reach the free docking  station. Once the mobile robot reaches the free docking station, it has to come back to *START* by crossing the second corridor. As depicted in Figure 1, corridors are one-way!
