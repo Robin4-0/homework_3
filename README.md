@@ -3,7 +3,7 @@
 The command
 
 ```sh
-$ roslaunch robin_arena robin_bringup.launch simulation:=true gripper_enable:=true spawn_marrtino:=true arena_name:=robin_arena_simplified
+$ roslaunch robin_arena robin_bringup.launch simulation:=true gripper_enable:=true spawn_marrtino:=true arena_name:=robin_arena_open
 ```
 
 spawns a simulated setup equipped with both a manipulator robot, i.e., the Universal Robot UR5, and a mobile robot, i.e., Marrtino. Moreover, an arena with fixed walls (fixed obstacles) surrounds these robots. Inside it, some orange cylinders (movable obstacles) obstruct the navigation of the mobile robot.
